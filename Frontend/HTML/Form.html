@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Registration Form</h1>
+
+        *First Name <input type="First" name="First" placeholder="Enter Your First Name" required>
+
+        *Last Name <input type="Last" name="Last" placeholder="Enter Your Last Name" required>
+
+        Nick Name <input type="text" name="Nick" id="Nick" placeholder="Enter your Nick Name">
+
+        *Email <input type="email" name="Email" id="email" placeholder="Exmple@Domain.com" required>
+
+        *Password <input type="password" name="Password" id="Password" placeholder="Password"
+        minlength="4" required>
+
+        *Date Of Birth <input type="date" name="DOB" id="DOB" placeholder="DD-MM-YYYY" required>
+
+        <br>
+        <br>
+
+        <fieldset> <!--Fieldset is an Html tag which is used to wrap up the elements inside a box-->
+            <legend>*Gender</legend> <label for="Male">Male</label><input type="radio" name="Gender" id="Other"
+                required>
+            <label for="Female">Female</label><input type="radio" name="Gender" id="Female"> <label
+                for="Other">Other</label> <input type="radio" name="Gender" id="Other">
+        </fieldset>
+
+        <br>
+        <br>
+
+        *Mobile <input type="tel" name="phone" id="phone" placeholder="Enter Your 10 digits Phone number" required maxlength="10" minlength="10">
+
+        <br>
+        <br>
+
+        Address<textarea name="Address" id="" cols="40" rows="5" placeholder="Enter Your Full Address"></textarea>
+
+        <br>
+        <br>
+
+        <button>Submit</button>
+
+        <button>Reset</button>
+    </form>
+</body>
+
+</html>
