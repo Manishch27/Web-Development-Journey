@@ -1,0 +1,19 @@
+.div-1, .div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-1>div , .div-2>div{
+    border: 2px solid black;
+    padding: 20px 20px;
+}
+
+.Margin-5{
+    margin-top: 5px;
+}
+
+#box-2{
+    order: -2;
+    align-self:stretch;
+}
