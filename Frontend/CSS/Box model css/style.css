@@ -1,0 +1,8 @@
+.hub{
+    background-color: cornflowerblue;
+    height: auto;
+    padding: 10px;
+    border: 5px dotted black;
+    box-shadow: black 5px 10px 2px 1px;
+    margin: 20px;
+}

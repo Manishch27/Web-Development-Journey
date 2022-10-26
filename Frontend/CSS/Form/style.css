@@ -1,0 +1,111 @@
+body{
+    background-color: #75e2e9;
+}
+.Information{
+    background-color: #3786bd;
+    height: 80vh;
+    width: 60vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.Register{
+    background-color: white;
+    height: 80vh;
+    width: 60vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Form{
+    display: flex;
+    margin: 100px 20vw;
+    box-shadow: 2px 2px 12px rgb(88, 92, 94);
+}
+h2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.Register h2{
+    color:#3786bd;
+}
+.Block_Right{
+    padding:10px 40px;
+    padding-right: 70px;
+}
+.Left_Block{
+    color: white;
+    padding:10px 40px;
+}
+.one, .two{
+    font-style: normal;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.two{
+    margin-bottom: 50px;
+}
+.Button{
+    background-color: white;
+    padding: 20px 30px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 10px 0px;
+}
+.Button:hover{
+    background-color: lightgrey;
+    cursor:pointer;
+}
+.type{
+    padding: 11.5px 11.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px 0;
+    border: 1px solid #e5e5e5;
+}
+
+.Name{
+    display: -webkit-flex; 
+}
+.input{
+    margin-right: 50px;
+}
+.Password{
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.input3{
+    margin-right: 50px;
+}
+.input5{
+    display: -webkit-flex;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    background-color: #3786bd;
+    color: white;
+    padding: 20px 30px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 10px 0px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: blue;
+}
+.p{
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 480px) {
+    .Block_Right{
+        width: 99%;
+    }
+}
